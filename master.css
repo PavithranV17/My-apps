@@ -136,7 +136,9 @@ main{
 }
 
 .home .img-wrap img{
+    object-fit: contain;
     max-height: 60vh;
+    width: 100%;
 }
 
 .home .img-wrap{
@@ -371,6 +373,7 @@ footer .footer{
         color: #393e46;
         width: 100%;
         transition: 0.3s;
+        z-index: 2;
     }
 
     .head .nav-items.active{
