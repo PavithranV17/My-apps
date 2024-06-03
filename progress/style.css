@@ -192,3 +192,9 @@
         align-items: center;
     }
 }
+
+@media (max-width: 480px){
+    .heading-progress, .taskbox{
+        min-width: 175px;
+    }
+}

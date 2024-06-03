@@ -25,7 +25,7 @@ h3{
     font-size: 23px;
 }
 .outer-wrap{
-    width: 80%;
+    width: 90%;
     min-height: 100vh;
     background-color: #F5F7FA;
     padding: 30px;
@@ -74,9 +74,10 @@ h3{
     margin: 10px;
 }
 
-/* .input .add > *{
+.input .add > *{
     margin: 10px;
-} */
+}
+
 .add input{
     font-size: 18px;
     padding: 5px;
@@ -179,4 +180,20 @@ h3{
 
 .records i.delete:hover{
     color: #b42b51;
+}
+
+@media (max-width: 500px){
+
+    .input, .stats, .head{
+        min-width: 150px;
+    }
+
+    .records li{
+        min-width: 200px;
+        width: 100%;
+    }
+
+    .records{
+        margin: 5px;
+    }
 }
