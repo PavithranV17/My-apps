@@ -25,17 +25,19 @@ h3{
     font-size: 23px;
 }
 .outer-wrap{
-    width: 90%;
+    margin: auto 40px;
+}
+
+.inner-wrap{
+    max-width: 1200px;
+    width: 100%;
     min-height: 100vh;
     background-color: #F5F7FA;
     padding: 30px;
     margin: 60px auto;
     box-shadow: rgba(0, 0, 0, 0.18) 0 0 10px 1px;
 }
-.inner-wrap{
-    max-width: 1200px;
-    margin: auto;
-}
+
 .heading{
     margin: 30px auto;
     padding: 0 20px;

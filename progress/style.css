@@ -21,16 +21,17 @@
 }
 
 .outer-wrap{
-    width: 85%;
-    min-height: 100vh;
-    background-color: #003554;
-    padding: 30px;
-    margin: 60px auto;
-    border-radius: 5px;
+    margin: auto 40px;
 }
+
 .inner-wrap{
     max-width: 1200px;
-    margin: auto;
+    width: 100%;
+    min-height: 100vh;
+    padding: 30px;
+    margin: 60px auto;
+    background-color: #003554;
+    border-radius: 5px;
 }
 
 .heading-progress{
